@@ -1,0 +1,121 @@
+:root {
+    --youtube-color: #ff0033;
+    --tiktok-color: #000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.ads-banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #f4f4f4;
+    max-height: 40vh;
+}
+
+.ads-banner > img {
+    max-width: 40%;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.center-para {
+    padding-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cont-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+    background: #f4f4f4;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.follower-cont {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 24px;
+    padding: 20px;
+    box-shadow: 0px 4px 16px rgba(0.1, 0.1, 0.1, 0.356);
+    margin-top: 20px;
+}
+
+.youtube {
+    background-color: var(--youtube-color);
+}
+
+.tiktok {
+    background-color: var(--tiktok-color);
+}
+
+.instagram {
+    background: linear-gradient(#f7bd01, #f500a4);
+}
+
+.final {
+    margin-bottom: 20px;
+}
+
+.follower {
+    background: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.upper-part {
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    padding: 20px;
+}
+
+.down-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 420px) {
+    h3 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+}
