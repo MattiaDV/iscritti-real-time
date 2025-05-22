@@ -118,4 +118,14 @@ p {
     p {
         font-size: 10px;
     }
+
+    .upper-part > h1 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .upper-part > h1 {
+        font-size: 15px;
+    }
 }

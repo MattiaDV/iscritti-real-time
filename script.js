@@ -20,9 +20,9 @@ let num_isc_ig = document.getElementById('cont_instagram');
 let num_isc_tt = document.getElementById('cont_tiktok');
 let num_isc_yt = document.getElementById('cont_youtube');
 
-num_isc_ig.innerHTML = iscritti_instagram + " Follower";
-num_isc_tt.innerHTML = iscritti_tiktok + " Follower";
-num_isc_yt.innerHTML = iscritti_youtube + " Follower";
+num_isc_ig.innerHTML = iscritti_instagram + "/10.000 Follower";
+num_isc_tt.innerHTML = iscritti_tiktok + "/10.000  Follower";
+num_isc_yt.innerHTML = iscritti_youtube + "/1000 Follower";
 
 let pallini_ig = document.getElementById('followerInstagram');
 let pallini_tt = document.getElementById('followerTikTok');
