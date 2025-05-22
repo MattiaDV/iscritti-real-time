@@ -35,7 +35,8 @@ p {
 }
 
 .center-para {
-    padding-top: 20px;
+    padding-top: 60px;
+    padding-bottom: 40px;
     width: 90%;
     margin: 0 auto;
 }
@@ -129,5 +130,9 @@ p {
 @media screen and (max-width: 800px) {
     .upper-part > h1 {
         font-size: 15px;
+    }
+
+    .ads-banner {
+        max-height: 20vh;
     }
 }
