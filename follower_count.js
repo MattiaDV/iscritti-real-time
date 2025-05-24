@@ -1,6 +1,6 @@
-export let iscritti_youtube = 93;
+export let iscritti_youtube = 97;
 export let iscritti_tiktok = 399;
-export let iscritti_instagram = 1616;
+export let iscritti_instagram = 1620;
 
 // PARTENZE
 // Youtube 80
