@@ -1,4 +1,4 @@
-export let iscritti_youtube = 97;
+export let iscritti_youtube = 96;
 export let iscritti_tiktok = 399;
 export let iscritti_instagram = 1620;
 
