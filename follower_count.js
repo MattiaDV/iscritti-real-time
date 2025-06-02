@@ -1,5 +1,5 @@
-export let iscritti_tiktok = 405;
-export let iscritti_instagram = 1621;
+export let iscritti_tiktok = 404;
+export let iscritti_instagram = 1618;
 
 const youtubeChannelID = "UCS7kt-sPzn--kLM-f_TVPGw";
 const url = `https://api.socialcounts.org/youtube-live-subscriber-count/${youtubeChannelID}`;
